@@ -14,5 +14,8 @@
     "test:ui": "npx playwright test --ui --config server/playwright.config.js",
     "test:debug": "npx playwright test --debug --config server/playwright.config.js",
     "test:report": "npx playwright show-report --config server/playwright.config.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }
