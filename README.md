@@ -1,7 +1,7 @@
 # 🚆 TravelTest – Travel & Booking Test Automation Platform
 ### 💳 Integrated with Razorpay Test Mode Payment Gateway
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Application-traveltest--platform.onrender.com-46E3B7?style=for-the-badge&logo=render&logoColor=white)]((https://traveltest-hvo8.onrender.com)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Application-traveltest--platform.onrender.com-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://traveltest-hvo8.onrender.com)
 [![GitHub Repo](https://img.shields.io/badge/📦_GitHub_Repo-Ajju1020%2FTravelTest-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ajju1020/TravelTest)
 [![Playwright Tests](https://img.shields.io/badge/🧪_Automated_Tests-38_Passing_(100%25)-22c55e?style=for-the-badge&logo=playwright&logoColor=white)](https://traveltest-hvo8.onrender.com)
 
