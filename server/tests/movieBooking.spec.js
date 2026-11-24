@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Module 2: Movie Ticket Booking Automation", () => {
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = process.env.API_BASE || (process.env.BASE_URL ? (process.env.BASE_URL.replace(/\/$/, "") + "/api") : "http://localhost:5000/api");
 
   test("TC-MV-01: Verify movie selection from catalog", async ({ request }) => {
     const res = await request.get(`${API_BASE}/data/master`);

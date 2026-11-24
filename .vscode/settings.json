@@ -1,0 +1,15 @@
+{
+  "playwright.configPath": "server/playwright.config.js",
+  "playwright.reuseBrowser": true,
+  "playwright.showTrace": true,
+  "playwright.env": {
+    "BASE_URL": "http://localhost:5173"
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.autoSave": "onFocusChange",
+  "tailwindCSS.includeLanguages": {
+    "javascript": "javascriptreact",
+    "html": "html"
+  }
+}

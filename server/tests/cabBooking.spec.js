@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Module 3: Cab Booking Automation", () => {
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = process.env.API_BASE || (process.env.BASE_URL ? (process.env.BASE_URL.replace(/\/$/, "") + "/api") : "http://localhost:5000/api");
 
   test("TC-CB-01: Verify pickup and drop location inputs", async ({ request }) => {
     const res = await request.post(`${API_BASE}/bookings`, {

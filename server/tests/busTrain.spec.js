@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Module 1: Bus and Train Reservation Automation", () => {
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = process.env.API_BASE || (process.env.BASE_URL ? (process.env.BASE_URL.replace(/\/$/, "") + "/api") : "http://localhost:5000/api");
 
   test("TC-BT-01: Verify source and destination selection and reject equality", async ({ request }) => {
     // 1. Same source and destination must be rejected

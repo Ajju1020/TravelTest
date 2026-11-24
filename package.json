@@ -3,9 +3,16 @@
   "version": "1.0.0",
   "description": "TravelTest – Travel & Booking Automation System",
   "scripts": {
+    "build": "npm run build --prefix client",
+    "start": "node server/server.js",
+    "postinstall": "npm install --prefix server && npm install --prefix client",
     "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev": "npm run dev:server",
     "dev:server": "npm run dev --prefix server",
     "dev:client": "npm run dev --prefix client",
-    "test:server": "npm test --prefix server"
+    "test": "npm test --prefix server",
+    "test:ui": "npx playwright test --ui --config server/playwright.config.js",
+    "test:debug": "npx playwright test --debug --config server/playwright.config.js",
+    "test:report": "npx playwright show-report --config server/playwright.config.js"
   }
 }

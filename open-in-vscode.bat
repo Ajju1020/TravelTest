@@ -1,0 +1,3 @@
+@echo off
+echo Opening TravelTest Platform in Visual Studio Code...
+code .

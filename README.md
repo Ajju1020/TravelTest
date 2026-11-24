@@ -1,6 +1,17 @@
 # TravelTest – Travel & Booking Test Automation Platform
 ## with Razorpay Test Mode Payment Gateway Integration
 
+[![Live Web App](https://img.shields.io/badge/Live_App-GitHub_Pages-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://ajju1020.github.io/TravelTest/)
+[![Fullstack API](https://img.shields.io/badge/Fullstack_API-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://traveltest-platform.onrender.com)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Ajju1020%2FTravelTest-3b82f6?style=for-the-badge&logo=github)](https://github.com/Ajju1020/TravelTest)
+
+---
+
+### 🌐 Live Public Application Links
+- 🚀 **Interactive Web Application (GitHub Pages)**: [https://ajju1020.github.io/TravelTest/](https://ajju1020.github.io/TravelTest/)
+- ☁️ **Full-Stack Cloud Service (Render)**: [https://traveltest-platform.onrender.com](https://traveltest-platform.onrender.com)
+- 📦 **GitHub Source Repository**: [https://github.com/Ajju1020/TravelTest](https://github.com/Ajju1020/TravelTest)
+
 **TravelTest** is a modern, responsive, full-stack SaaS-style web platform built to demonstrate automated software testing, end-to-end quality assurance, and realistic online payment gateway processing across four diverse booking domains.
 
 ---
@@ -130,9 +141,8 @@ npm run dev
 ```
 
 3. Open your browser and navigate to:
-```
-http://localhost:5173
-```
+- **Live Public Cloud URL**: [https://ajju1020.github.io/TravelTest/](https://ajju1020.github.io/TravelTest/)
+- **Local Development URL**: [http://localhost:5173](http://localhost:5173)
 
 ### 3. Run Playwright Automated Tests via CLI
 To run all 38 automated test cases directly from terminal:
@@ -140,3 +150,25 @@ To run all 38 automated test cases directly from terminal:
 cd server
 npm test
 ```
+
+---
+
+## Visual Studio Code Integration
+
+The project includes full configuration for development in **Visual Studio Code**:
+
+1. **Open Workspace**:
+   ```bash
+   code C:\Users\victus\.gemini\antigravity\scratch\traveltest-platform
+   ```
+   Or double-click `open-in-vscode.bat`.
+2. **Recommended Extensions** (`.vscode/extensions.json`):
+   - **Playwright Test for VSCode** (`ms-playwright.playwright`)
+   - **Tailwind CSS IntelliSense** (`bradlc.vscode-tailwindcss`)
+   - **ESLint & Prettier**
+3. **Run Application**:
+   - Press **`Ctrl + Shift + B`** to launch full-stack (Backend on :5000 + Frontend on :5173).
+4. **Playwright Test Explorer**:
+   - View, execute, and debug all 38 test scenarios from the VS Code Testing sidebar (flask icon).
+5. **Debug with Breakpoints**:
+   - Press **`F5`** to debug backend routes (`routes/payment.js`, `routes/bookings.js`) and test scripts.

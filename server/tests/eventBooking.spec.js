@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.describe("Module 4: Event Registration Automation", () => {
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = process.env.API_BASE || (process.env.BASE_URL ? (process.env.BASE_URL.replace(/\/$/, "") + "/api") : "http://localhost:5000/api");
 
   test("TC-EV-01: Verify event details loading", async ({ request }) => {
     const res = await request.get(`${API_BASE}/data/master`);

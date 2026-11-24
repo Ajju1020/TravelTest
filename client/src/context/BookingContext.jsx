@@ -1,3 +1,4 @@
+import { initialData } from "../data/mockData.js";
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const BookingContext = createContext();
@@ -21,12 +22,15 @@ export const BookingProvider = ({ children }) => {
   const fetchMasterData = async () => {
     try {
       const res = await fetch("/api/data/master");
+      if (!res.ok) throw new Error("API not available");
       const json = await res.json();
       if (json.success) {
         setMasterData(json.data);
+        return;
       }
     } catch (err) {
-      console.error("Failed to load master data:", err);
+      console.warn("Using offline/fallback master data:", err.message);
+      setMasterData(initialData);
     }
   };
 

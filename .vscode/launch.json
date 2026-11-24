@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Backend Server (Node.js)",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/server.js",
+      "cwd": "${workspaceFolder}/server",
+      "restart": true,
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "envFile": "${workspaceFolder}/server/.env"
+    },
+    {
+      "name": "Launch Frontend in Chrome",
+      "type": "chrome",
+      "request": "launch",
+      "url": "http://localhost:5173",
+      "webRoot": "${workspaceFolder}/client/src"
+    },
+    {
+      "name": "Debug Playwright Tests (Interactive)",
+      "type": "node",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/server",
+      "program": "${workspaceFolder}/server/node_modules/@playwright/test/cli.js",
+      "args": [
+        "test",
+        "--debug"
+      ],
+      "console": "integratedTerminal"
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Full Stack (Debug Backend + Open Chrome)",
+      "configurations": [
+        "Debug Backend Server (Node.js)",
+        "Launch Frontend in Chrome"
+      ]
+    }
+  ]
+}

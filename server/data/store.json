@@ -1,6 +1,199 @@
 {
   "bookings": [
     {
+      "id": "BK-EV-66136",
+      "module": "event",
+      "title": "Neon Pulse Electronic Music Festival 2026",
+      "eventId": "EVT-03",
+      "venue": "Vagator Coastal Grounds",
+      "date": "Dec 20-22, 2026",
+      "tier": "VIP Elevated Deck & Hospitality",
+      "quantity": 5,
+      "attendee": {
+        "name": "Ajju",
+        "email": "ajju@gmail.com",
+        "phone": "+91 98765 00112",
+        "org": "Quantum AI Research Labs"
+      },
+      "badgeId": "EVT-364294",
+      "fare": 44995,
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T18:02:54.413Z",
+      "paymentId": "pay_5ZWJEJY7",
+      "orderId": "order_A982F2EEB667EDE3",
+      "paymentMethod": "netbanking",
+      "paidAt": "2026-11-24T18:03:23.751Z"
+    },
+    {
+      "id": "BK-CB-84481",
+      "module": "cab",
+      "title": "SEDAN Ride - Indira Gandhi Airport (DEL) to Cyber Hub, Gurugram",
+      "pickup": "Indira Gandhi Airport (DEL)",
+      "drop": "Cyber Hub, Gurugram",
+      "dateTime": "Immediate Pickup (3-5 mins)",
+      "category": "sedan",
+      "driver": {
+        "name": "Rajesh Sharma",
+        "vehicle": "White Honda Amaze",
+        "plate": "DL 03 CD 8821",
+        "phone": "+91 98111 22334"
+      },
+      "otp": "3650",
+      "fare": 405,
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T18:02:03.213Z",
+      "paymentId": "pay_0RXR1A3V",
+      "orderId": "order_1423FE921AB53CD0",
+      "paymentMethod": "upi",
+      "paidAt": "2026-11-24T18:02:08.431Z"
+    },
+    {
+      "id": "BK-MV-46076",
+      "module": "movie",
+      "movieId": "MOV-01",
+      "title": "Dune: Part Two",
+      "cinema": "INOX Megaplex: Laser IMAX & Insignia",
+      "screen": "Screen 1 (Laser IMAX)",
+      "showtime": "10:30 AM",
+      "date": "2026-11-30",
+      "seats": [
+        "J1",
+        "J2",
+        "J3",
+        "J4",
+        "J5",
+        "J6",
+        "J7",
+        "J8"
+      ],
+      "tier": "Platinum",
+      "fare": 5055,
+      "status": "Confirmed",
+      "bookingCode": "MOV-TKT-9803",
+      "createdAt": "2026-11-24T18:00:32.328Z",
+      "paymentId": "pay_YKO0QSRL",
+      "orderId": "order_221162833DC5F3CC",
+      "paymentMethod": "upi",
+      "paidAt": "2026-11-24T18:00:41.521Z"
+    },
+    {
+      "id": "BK-TEST-PAY-01",
+      "module": "bus_train",
+      "title": "Payment Automation Express",
+      "fare": 1200,
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T17:56:20.810Z",
+      "paymentId": "pay_AUTO_Q31GHA",
+      "orderId": "order_AUTO_AHUWXS"
+    },
+    {
+      "id": "BK-EV-84256",
+      "module": "event",
+      "title": "Global AI & Cloud Innovation Summit 2026",
+      "eventId": "EVT-01",
+      "venue": "Bharat Mandapam Convention Centre",
+      "date": "Dec 12-14, 2026",
+      "tier": "Student Delegate Pass",
+      "quantity": 1,
+      "attendee": {
+        "name": "Maya Shenoy",
+        "email": "maya.shenoy@iiitb.ac.in",
+        "phone": "+91 99887 11223"
+      },
+      "badgeId": "AI-DELEGATE-9942",
+      "fare": 499,
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T17:56:18.220Z"
+    },
+    {
+      "id": "BK-CB-89679",
+      "module": "cab",
+      "title": "Prime SUV Ride",
+      "pickup": "Aerocity, New Delhi",
+      "drop": "India Gate, New Delhi",
+      "dateTime": "2026-11-24 17:56",
+      "category": "suv",
+      "driver": {
+        "name": "Vikramaditya Rao",
+        "vehicle": "Silver Innova Crysta",
+        "plate": "DL 01 AB 4022",
+        "phone": "+91 98765 43210"
+      },
+      "otp": "5150",
+      "fare": 480,
+      "status": "Confirmed",
+      "createdAt": "2026-11-24T17:56:16.226Z"
+    },
+    {
+      "id": "BK-MV-21684",
+      "module": "movie",
+      "movieId": "MOV-01",
+      "title": "Dune: Part Two",
+      "cinema": "PVR ICON: Gold Class & IMAX, Promenade",
+      "screen": "Audi 1 (IMAX)",
+      "showtime": "05:00 PM",
+      "date": "2026-11-25",
+      "seats": [
+        "G4",
+        "G5"
+      ],
+      "tier": "Gold",
+      "fare": 866,
+      "status": "Confirmed",
+      "bookingCode": "MOV-TKT-7383",
+      "createdAt": "2026-11-24T17:56:14.175Z"
+    },
+    {
+      "id": "BK-BT-20542",
+      "module": "bus_train",
+      "type": "Train",
+      "title": "Vande Bharat Express (TR-22436)",
+      "from": "New Delhi",
+      "to": "Varanasi",
+      "date": "2026-12-10",
+      "passengers": [
+        {
+          "name": "Automated Tester",
+          "age": 30,
+          "gender": "Other",
+          "seat": "C1-12"
+        }
+      ],
+      "fare": 1750,
+      "status": "Confirmed",
+      "pnr": "PNR-5677578",
+      "createdAt": "2026-11-24T17:56:11.799Z"
+    },
+    {
+      "id": "BK-MV-84739",
+      "module": "movie",
+      "movieId": "MOV-03",
+      "title": "Interstellar 70mm",
+      "cinema": "PVR ICON: Gold Class & IMAX, Promenade",
+      "screen": "Audi 1 (IMAX)",
+      "showtime": "01:45 PM",
+      "date": "2026-11-17",
+      "seats": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "A5",
+        "A6",
+        "A7",
+        "A8"
+      ],
+      "tier": "Silver",
+      "fare": 1928,
+      "status": "Confirmed",
+      "bookingCode": "MOV-TKT-1448",
+      "createdAt": "2026-11-15T17:57:25.153Z",
+      "paymentId": "pay_94BHYBE3",
+      "orderId": "order_D3957EC12707D1C1",
+      "paymentMethod": "card",
+      "paidAt": "2026-11-15T17:57:50.782Z"
+    },
+    {
       "id": "BK-MV-54224",
       "module": "movie",
       "movieId": "MOV-03",
@@ -1584,7 +1777,15 @@
       "E8",
       "F2",
       "H3",
-      "H4"
+      "H4",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "J5",
+      "J6",
+      "J7",
+      "J8"
     ],
     "MOV-01_08:30 PM": [
       "F4",
@@ -1616,6 +1817,8 @@
       "G4",
       "G5",
       "G4",
+      "G5",
+      "G4",
       "G5"
     ],
     "MOV-01_11:15 PM": [
@@ -1638,19 +1841,1422 @@
       "F4",
       "F5",
       "H5"
+    ],
+    "MOV-03_01:45 PM": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7",
+      "A8"
     ]
   },
   "bugSettings": {
-    "allowSameSourceDest": false,
-    "movieSeatDoubleBooking": false,
-    "cabFareMultiplierGlitch": false,
-    "bypassDuplicateEventEmail": false
+    "allowSameSourceDest": true,
+    "movieSeatDoubleBooking": true,
+    "cabFareMultiplierGlitch": true,
+    "bypassDuplicateEventEmail": true
   },
   "executionConfig": {
     "speedDelayMs": 250,
     "browserMode": "headless"
   },
   "testHistory": [
+    {
+      "runId": "RUN-MWUZXA05-35",
+      "timestamp": "2026-11-24T17:56:23.113Z",
+      "total": 38,
+      "passed": 38,
+      "failed": 0,
+      "skipped": 0,
+      "durationMs": 13796,
+      "successRate": 100,
+      "moduleStats": {
+        "bus_train": {
+          "total": 7,
+          "passed": 7,
+          "failed": 0,
+          "rate": 100
+        },
+        "movie": {
+          "total": 6,
+          "passed": 6,
+          "failed": 0,
+          "rate": 100
+        },
+        "cab": {
+          "total": 6,
+          "passed": 6,
+          "failed": 0,
+          "rate": 100
+        },
+        "event": {
+          "total": 7,
+          "passed": 7,
+          "failed": 0,
+          "rate": 100
+        },
+        "payment": {
+          "total": 12,
+          "passed": 12,
+          "failed": 0,
+          "rate": 100
+        }
+      },
+      "results": [
+        {
+          "testId": "TC-BT-01",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify source and destination selection",
+          "status": "PASSED",
+          "durationMs": 528,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:09.326",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-01] Verify source and destination selection"
+            },
+            {
+              "time": "17:56:09.326",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: Validation / Functional | Severity: High"
+            },
+            {
+              "time": "17:56:09.536",
+              "level": "STEP",
+              "msg": "Step 1: Selecting source city 'New Delhi' and destination 'New Delhi'"
+            },
+            {
+              "time": "17:56:09.646",
+              "level": "STEP",
+              "msg": "Step 2: Checking city equality guard"
+            },
+            {
+              "time": "17:56:09.750",
+              "level": "STEP",
+              "msg": "Step 3: Selecting valid destination 'Mumbai'"
+            },
+            {
+              "time": "17:56:09.854",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-01]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:09.854Z"
+        },
+        {
+          "testId": "TC-BT-02",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify journey date validation",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:09.854",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-02] Verify journey date validation"
+            },
+            {
+              "time": "17:56:09.854",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: Boundary / Validation | Severity: High"
+            },
+            {
+              "time": "17:56:10.056",
+              "level": "STEP",
+              "msg": "Step 1: Testing past date validation with date '2020-01-01'"
+            },
+            {
+              "time": "17:56:10.161",
+              "level": "STEP",
+              "msg": "Step 2: Testing valid future journey date"
+            },
+            {
+              "time": "17:56:10.264",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-02]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:10.264Z"
+        },
+        {
+          "testId": "TC-BT-03",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify passenger count validation",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:10.264",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-03] Verify passenger count validation"
+            },
+            {
+              "time": "17:56:10.264",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: Validation | Severity: Medium"
+            },
+            {
+              "time": "17:56:10.465",
+              "level": "STEP",
+              "msg": "Step 1: Validating passenger count upper boundary (max 6)"
+            },
+            {
+              "time": "17:56:10.570",
+              "level": "STEP",
+              "msg": "Step 2: Validating passenger data structure with 2 passengers"
+            },
+            {
+              "time": "17:56:10.674",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-03]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:10.674Z"
+        },
+        {
+          "testId": "TC-BT-04",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify search functionality",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:10.674",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-04] Verify search functionality"
+            },
+            {
+              "time": "17:56:10.674",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: Functional / Search | Severity: Critical"
+            },
+            {
+              "time": "17:56:10.876",
+              "level": "STEP",
+              "msg": "Step 1: Querying train catalog for 'New Delhi' to 'Mumbai'"
+            },
+            {
+              "time": "17:56:10.979",
+              "level": "STEP",
+              "msg": "Step 2: Asserting train fleet properties (name, timings, class tiers)"
+            },
+            {
+              "time": "17:56:11.084",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-04]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:11.084Z"
+        },
+        {
+          "testId": "TC-BT-05",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify seat availability and layout toggle",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:11.084",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-05] Verify seat availability and layout toggle"
+            },
+            {
+              "time": "17:56:11.084",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: UI / State | Severity: High"
+            },
+            {
+              "time": "17:56:11.285",
+              "level": "STEP",
+              "msg": "Step 1: Loading seat map for AC Chair Car (42 available seats)"
+            },
+            {
+              "time": "17:56:11.387",
+              "level": "STEP",
+              "msg": "Step 2: Selecting Seat C4-24 and verifying state change to 'Selected'"
+            },
+            {
+              "time": "17:56:11.494",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-05]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:11.494Z"
+        },
+        {
+          "testId": "TC-BT-06",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify successful booking workflow",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:11.494",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-06] Verify successful booking workflow"
+            },
+            {
+              "time": "17:56:11.494",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: End-to-End | Severity: Critical"
+            },
+            {
+              "time": "17:56:11.695",
+              "level": "STEP",
+              "msg": "Step 1: Submitting complete reservation for Vande Bharat Express"
+            },
+            {
+              "time": "17:56:11.803",
+              "level": "STEP",
+              "msg": "Step 2: Verifying generated PNR confirmation in booking registry"
+            },
+            {
+              "time": "17:56:11.904",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-06]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:11.904Z"
+        },
+        {
+          "testId": "TC-BT-07",
+          "module": "bus_train",
+          "moduleTitle": "Bus & Train Reservation",
+          "title": "Verify invalid booking rejection",
+          "status": "PASSED",
+          "durationMs": 305,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:11.904",
+              "level": "INFO",
+              "msg": "Executing [TC-BT-07] Verify invalid booking rejection"
+            },
+            {
+              "time": "17:56:11.904",
+              "level": "INFO",
+              "msg": "Module: Bus & Train Reservation | Type: Negative Test | Severity: High"
+            },
+            {
+              "time": "17:56:12.105",
+              "level": "STEP",
+              "msg": "Step 1: Submitting booking with missing passenger name"
+            },
+            {
+              "time": "17:56:12.209",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-BT-07]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:12.209Z"
+        },
+        {
+          "testId": "TC-MV-01",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Verify movie selection from catalog",
+          "status": "PASSED",
+          "durationMs": 307,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:12.209",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-01] Verify movie selection from catalog"
+            },
+            {
+              "time": "17:56:12.209",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: Functional | Severity: High"
+            },
+            {
+              "time": "17:56:12.410",
+              "level": "STEP",
+              "msg": "Step 1: Fetching movie catalog and selecting 'Dune: Part Two'"
+            },
+            {
+              "time": "17:56:12.516",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-01]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:12.516Z"
+        },
+        {
+          "testId": "TC-MV-02",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Verify cinema and showtime selection",
+          "status": "PASSED",
+          "durationMs": 319,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:12.516",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-02] Verify cinema and showtime selection"
+            },
+            {
+              "time": "17:56:12.516",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: Functional | Severity: Medium"
+            },
+            {
+              "time": "17:56:12.721",
+              "level": "STEP",
+              "msg": "Step 1: Selecting cinema 'PVR ICON' and showtime '08:30 PM'"
+            },
+            {
+              "time": "17:56:12.835",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-02]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:12.835Z"
+        },
+        {
+          "testId": "TC-MV-03",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Verify interactive seat selection",
+          "status": "PASSED",
+          "durationMs": 305,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:12.835",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-03] Verify interactive seat selection"
+            },
+            {
+              "time": "17:56:12.835",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: UI / Interactive | Severity: High"
+            },
+            {
+              "time": "17:56:13.036",
+              "level": "STEP",
+              "msg": "Step 1: Choosing seat E5 (Gold Tier) and seat E6 (Gold Tier)"
+            },
+            {
+              "time": "17:56:13.140",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-03]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:13.140Z"
+        },
+        {
+          "testId": "TC-MV-04",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Prevent selection of already-booked seats",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:13.140",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-04] Prevent selection of already-booked seats"
+            },
+            {
+              "time": "17:56:13.140",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: Security / Integrity | Severity: Critical"
+            },
+            {
+              "time": "17:56:13.342",
+              "level": "STEP",
+              "msg": "Step 1: Querying booked seats for 'MOV-01' at '10:30 AM'"
+            },
+            {
+              "time": "17:56:13.446",
+              "level": "STEP",
+              "msg": "Step 2: Attempting to click booked seat 'D4'"
+            },
+            {
+              "time": "17:56:13.550",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-04]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:13.550Z"
+        },
+        {
+          "testId": "TC-MV-05",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Verify ticket price calculation",
+          "status": "PASSED",
+          "durationMs": 318,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:13.550",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-05] Verify ticket price calculation"
+            },
+            {
+              "time": "17:56:13.550",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: Calculation / Math | Severity: High"
+            },
+            {
+              "time": "17:56:13.760",
+              "level": "STEP",
+              "msg": "Step 1: Calculating price for 2 Gold Tier seats (₹350 each)"
+            },
+            {
+              "time": "17:56:13.868",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-05]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:13.868Z"
+        },
+        {
+          "testId": "TC-MV-06",
+          "module": "movie",
+          "moduleTitle": "Movie Ticket Booking",
+          "title": "Verify successful movie booking",
+          "status": "PASSED",
+          "durationMs": 412,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:13.868",
+              "level": "INFO",
+              "msg": "Executing [TC-MV-06] Verify successful movie booking"
+            },
+            {
+              "time": "17:56:13.868",
+              "level": "INFO",
+              "msg": "Module: Movie Ticket Booking | Type: End-to-End | Severity: Critical"
+            },
+            {
+              "time": "17:56:14.071",
+              "level": "STEP",
+              "msg": "Step 1: Completing movie ticket order"
+            },
+            {
+              "time": "17:56:14.178",
+              "level": "STEP",
+              "msg": "Step 2: Validating booking pass generation with booking code"
+            },
+            {
+              "time": "17:56:14.280",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-MV-06]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:14.280Z"
+        },
+        {
+          "testId": "TC-CB-01",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify pickup and drop location inputs",
+          "status": "PASSED",
+          "durationMs": 305,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:14.280",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-01] Verify pickup and drop location inputs"
+            },
+            {
+              "time": "17:56:14.280",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: Input / Suggestion | Severity: Medium"
+            },
+            {
+              "time": "17:56:14.481",
+              "level": "STEP",
+              "msg": "Step 1: Setting pickup 'Indira Gandhi Airport (DEL)' and drop 'Cyber Hub'"
+            },
+            {
+              "time": "17:56:14.585",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-01]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:14.585Z"
+        },
+        {
+          "testId": "TC-CB-02",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify pickup and drop locations are different",
+          "status": "PASSED",
+          "durationMs": 410,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:14.585",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-02] Verify pickup and drop locations are different"
+            },
+            {
+              "time": "17:56:14.585",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: Validation / Negative | Severity: High"
+            },
+            {
+              "time": "17:56:14.786",
+              "level": "STEP",
+              "msg": "Step 1: Setting identical pickup and drop 'Connaught Place'"
+            },
+            {
+              "time": "17:56:14.891",
+              "level": "STEP",
+              "msg": "Step 2: Checking collision rejection guard"
+            },
+            {
+              "time": "17:56:14.995",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-02]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:14.995Z"
+        },
+        {
+          "testId": "TC-CB-03",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify date and time validation for ride scheduling",
+          "status": "PASSED",
+          "durationMs": 306,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:14.995",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-03] Verify date and time validation for ride scheduling"
+            },
+            {
+              "time": "17:56:14.995",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: Validation | Severity: Medium"
+            },
+            {
+              "time": "17:56:15.199",
+              "level": "STEP",
+              "msg": "Step 1: Testing schedule time validation for ride booking"
+            },
+            {
+              "time": "17:56:15.301",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-03]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:15.301Z"
+        },
+        {
+          "testId": "TC-CB-04",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify cab category selection",
+          "status": "PASSED",
+          "durationMs": 312,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:15.301",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-04] Verify cab category selection"
+            },
+            {
+              "time": "17:56:15.301",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: State / Selection | Severity: High"
+            },
+            {
+              "time": "17:56:15.502",
+              "level": "STEP",
+              "msg": "Step 1: Switching category to 'SUV' and verifying 6-seater capacity"
+            },
+            {
+              "time": "17:56:15.613",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-04]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:15.613Z"
+        },
+        {
+          "testId": "TC-CB-05",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify fare calculation",
+          "status": "PASSED",
+          "durationMs": 304,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:15.614",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-05] Verify fare calculation"
+            },
+            {
+              "time": "17:56:15.614",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: Calculation | Severity: High"
+            },
+            {
+              "time": "17:56:15.816",
+              "level": "STEP",
+              "msg": "Step 1: Estimating fare for Prime Sedan for 20 km distance"
+            },
+            {
+              "time": "17:56:15.917",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-05]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:15.917Z"
+        },
+        {
+          "testId": "TC-CB-06",
+          "module": "cab",
+          "moduleTitle": "Cab Booking",
+          "title": "Verify successful cab booking",
+          "status": "PASSED",
+          "durationMs": 312,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:15.917",
+              "level": "INFO",
+              "msg": "Executing [TC-CB-06] Verify successful cab booking"
+            },
+            {
+              "time": "17:56:15.917",
+              "level": "INFO",
+              "msg": "Module: Cab Booking | Type: End-to-End | Severity: Critical"
+            },
+            {
+              "time": "17:56:16.117",
+              "level": "STEP",
+              "msg": "Step 1: Requesting cab and assigning nearest verified driver"
+            },
+            {
+              "time": "17:56:16.229",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-CB-06]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:16.229Z"
+        },
+        {
+          "testId": "TC-EV-01",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify event selection and details loading",
+          "status": "PASSED",
+          "durationMs": 316,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:16.229",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-01] Verify event selection and details loading"
+            },
+            {
+              "time": "17:56:16.229",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: Functional | Severity: Medium"
+            },
+            {
+              "time": "17:56:16.433",
+              "level": "STEP",
+              "msg": "Step 1: Loading event 'Global AI & Cloud Innovation Summit 2026'"
+            },
+            {
+              "time": "17:56:16.545",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-01]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:16.545Z"
+        },
+        {
+          "testId": "TC-EV-02",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify participant details validation",
+          "status": "PASSED",
+          "durationMs": 315,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:16.545",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-02] Verify participant details validation"
+            },
+            {
+              "time": "17:56:16.545",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: Validation | Severity: High"
+            },
+            {
+              "time": "17:56:16.746",
+              "level": "STEP",
+              "msg": "Step 1: Checking participant name & phone validation"
+            },
+            {
+              "time": "17:56:16.860",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-02]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:16.860Z"
+        },
+        {
+          "testId": "TC-EV-03",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify email format validation",
+          "status": "PASSED",
+          "durationMs": 416,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:16.860",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-03] Verify email format validation"
+            },
+            {
+              "time": "17:56:16.860",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: Validation / Security | Severity: High"
+            },
+            {
+              "time": "17:56:17.067",
+              "level": "STEP",
+              "msg": "Step 1: Testing email RFC regex validation with invalid format 'user@@domain..com'"
+            },
+            {
+              "time": "17:56:17.169",
+              "level": "STEP",
+              "msg": "Step 2: Testing valid attendee email 'attendee@techconf.org'"
+            },
+            {
+              "time": "17:56:17.275",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-03]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:17.276Z"
+        },
+        {
+          "testId": "TC-EV-04",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify ticket quantity and tier selection",
+          "status": "PASSED",
+          "durationMs": 310,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:17.276",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-04] Verify ticket quantity and tier selection"
+            },
+            {
+              "time": "17:56:17.276",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: UI / Calculation | Severity: Medium"
+            },
+            {
+              "time": "17:56:17.482",
+              "level": "STEP",
+              "msg": "Step 1: Selecting 3 tickets for Student Delegate Pass (₹499)"
+            },
+            {
+              "time": "17:56:17.586",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-04]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:17.586Z"
+        },
+        {
+          "testId": "TC-EV-05",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify ticket availability limits",
+          "status": "PASSED",
+          "durationMs": 322,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:17.586",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-05] Verify ticket availability limits"
+            },
+            {
+              "time": "17:56:17.586",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: Boundary / Inventory | Severity: High"
+            },
+            {
+              "time": "17:56:17.795",
+              "level": "STEP",
+              "msg": "Step 1: Verifying inventory cap against remaining VIP tickets"
+            },
+            {
+              "time": "17:56:17.908",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-05]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:17.908Z"
+        },
+        {
+          "testId": "TC-EV-06",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify registration submission and badge generation",
+          "status": "PASSED",
+          "durationMs": 315,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:17.908",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-06] Verify registration submission and badge generation"
+            },
+            {
+              "time": "17:56:17.908",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: End-to-End | Severity: Critical"
+            },
+            {
+              "time": "17:56:18.117",
+              "level": "STEP",
+              "msg": "Step 1: Submitting registration for Global AI Summit"
+            },
+            {
+              "time": "17:56:18.223",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-06]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:18.223Z"
+        },
+        {
+          "testId": "TC-EV-07",
+          "module": "event",
+          "moduleTitle": "Event Registration",
+          "title": "Verify duplicate registration prevention",
+          "status": "PASSED",
+          "durationMs": 308,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:18.223",
+              "level": "INFO",
+              "msg": "Executing [TC-EV-07] Verify duplicate registration prevention"
+            },
+            {
+              "time": "17:56:18.223",
+              "level": "INFO",
+              "msg": "Module: Event Registration | Type: Business Logic / Negative | Severity: Critical"
+            },
+            {
+              "time": "17:56:18.427",
+              "level": "STEP",
+              "msg": "Step 1: Attempting duplicate registration with email 'john.doe@techcorp.com'"
+            },
+            {
+              "time": "17:56:18.531",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-EV-07]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:18.531Z"
+        },
+        {
+          "testId": "TC-PAY-01",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Open payment page",
+          "status": "PASSED",
+          "durationMs": 424,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:18.531",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-01] Open payment page"
+            },
+            {
+              "time": "17:56:18.531",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: UI / Navigation | Severity: Critical"
+            },
+            {
+              "time": "17:56:18.733",
+              "level": "STEP",
+              "msg": "Step 1: Loading pending booking for payment checkout"
+            },
+            {
+              "time": "17:56:18.845",
+              "level": "STEP",
+              "msg": "Step 2: Checking payment page initialization"
+            },
+            {
+              "time": "17:56:18.955",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-01]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:18.955Z"
+        },
+        {
+          "testId": "TC-PAY-02",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Verify booking amount",
+          "status": "PASSED",
+          "durationMs": 306,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:18.955",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-02] Verify booking amount"
+            },
+            {
+              "time": "17:56:18.955",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Calculation / Integrity | Severity: High"
+            },
+            {
+              "time": "17:56:19.157",
+              "level": "STEP",
+              "msg": "Step 1: Validating fare breakdown (base fare + 18% GST + convenience fee)"
+            },
+            {
+              "time": "17:56:19.261",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-02]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:19.261Z"
+        },
+        {
+          "testId": "TC-PAY-03",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Click Pay Now",
+          "status": "PASSED",
+          "durationMs": 409,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:19.261",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-03] Click Pay Now"
+            },
+            {
+              "time": "17:56:19.261",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Integration | Severity: Critical"
+            },
+            {
+              "time": "17:56:19.462",
+              "level": "STEP",
+              "msg": "Step 1: Triggering 'Pay Now' action on pending booking"
+            },
+            {
+              "time": "17:56:19.567",
+              "level": "STEP",
+              "msg": "Step 2: Simulating Razorpay order creation on backend"
+            },
+            {
+              "time": "17:56:19.670",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-03]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:19.670Z"
+        },
+        {
+          "testId": "TC-PAY-04",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Select UPI",
+          "status": "PASSED",
+          "durationMs": 422,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:19.670",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-04] Select UPI"
+            },
+            {
+              "time": "17:56:19.671",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: UI / Method Selection | Severity: Medium"
+            },
+            {
+              "time": "17:56:19.874",
+              "level": "STEP",
+              "msg": "Step 1: Querying available UPI payment methods"
+            },
+            {
+              "time": "17:56:19.985",
+              "level": "STEP",
+              "msg": "Step 2: Validating VPA syntax 'tester@okhdfcbank'"
+            },
+            {
+              "time": "17:56:20.092",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-04]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:20.092Z"
+        },
+        {
+          "testId": "TC-PAY-05",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Select card",
+          "status": "PASSED",
+          "durationMs": 413,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:20.092",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-05] Select card"
+            },
+            {
+              "time": "17:56:20.092",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: UI / Method Selection | Severity: Medium"
+            },
+            {
+              "time": "17:56:20.299",
+              "level": "STEP",
+              "msg": "Step 1: Validating Debit/Credit card input structure"
+            },
+            {
+              "time": "17:56:20.400",
+              "level": "STEP",
+              "msg": "Step 2: Verifying security policy: CVV not stored in persistent storage"
+            },
+            {
+              "time": "17:56:20.505",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-05]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:20.505Z"
+        },
+        {
+          "testId": "TC-PAY-06",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Successful test payment",
+          "status": "PASSED",
+          "durationMs": 528,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:20.505",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-06] Successful test payment"
+            },
+            {
+              "time": "17:56:20.505",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: End-to-End | Severity: Critical"
+            },
+            {
+              "time": "17:56:20.706",
+              "level": "STEP",
+              "msg": "Step 1: Creating fresh test booking in Pending Payment state"
+            },
+            {
+              "time": "17:56:20.814",
+              "level": "STEP",
+              "msg": "Step 2: Generating Razorpay order and computing valid HMAC-SHA256 signature"
+            },
+            {
+              "time": "17:56:20.918",
+              "level": "STEP",
+              "msg": "Step 3: Verifying payment on backend and asserting booking is Confirmed"
+            },
+            {
+              "time": "17:56:21.033",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-06]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:21.033Z"
+        },
+        {
+          "testId": "TC-PAY-07",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Failed test payment",
+          "status": "PASSED",
+          "durationMs": 423,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:21.033",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-07] Failed test payment"
+            },
+            {
+              "time": "17:56:21.033",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Negative / Error Handling | Severity: High"
+            },
+            {
+              "time": "17:56:21.236",
+              "level": "STEP",
+              "msg": "Step 1: Simulating bank decline during Razorpay checkout"
+            },
+            {
+              "time": "17:56:21.343",
+              "level": "STEP",
+              "msg": "Step 2: Ensuring booking remains unconfirmed upon failure"
+            },
+            {
+              "time": "17:56:21.456",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-07]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:21.457Z"
+        },
+        {
+          "testId": "TC-PAY-08",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Invalid payment signature",
+          "status": "PASSED",
+          "durationMs": 419,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:21.457",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-08] Invalid payment signature"
+            },
+            {
+              "time": "17:56:21.457",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Security / Cryptography | Severity: Critical"
+            },
+            {
+              "time": "17:56:21.664",
+              "level": "STEP",
+              "msg": "Step 1: Submitting tampered/forged HMAC signature to backend"
+            },
+            {
+              "time": "17:56:21.776",
+              "level": "STEP",
+              "msg": "Step 2: Asserting server-side rejection guard triggers error"
+            },
+            {
+              "time": "17:56:21.876",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-08]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:21.876Z"
+        },
+        {
+          "testId": "TC-PAY-09",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Duplicate payment request",
+          "status": "PASSED",
+          "durationMs": 319,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:21.876",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-09] Duplicate payment request"
+            },
+            {
+              "time": "17:56:21.876",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Idempotency / Business Logic | Severity: High"
+            },
+            {
+              "time": "17:56:22.081",
+              "level": "STEP",
+              "msg": "Step 1: Attempting to verify payment for already paid order"
+            },
+            {
+              "time": "17:56:22.195",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-09]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:22.195Z"
+        },
+        {
+          "testId": "TC-PAY-10",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Refresh payment page",
+          "status": "PASSED",
+          "durationMs": 311,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:22.195",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-10] Refresh payment page"
+            },
+            {
+              "time": "17:56:22.195",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: State Consistency | Severity: Medium"
+            },
+            {
+              "time": "17:56:22.401",
+              "level": "STEP",
+              "msg": "Step 1: Simulating browser page reload during pending payment"
+            },
+            {
+              "time": "17:56:22.506",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-10]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:22.506Z"
+        },
+        {
+          "testId": "TC-PAY-11",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Payment pending",
+          "status": "PASSED",
+          "durationMs": 305,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:22.506",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-11] Payment pending"
+            },
+            {
+              "time": "17:56:22.506",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Business Rule / State | Severity: Critical"
+            },
+            {
+              "time": "17:56:22.707",
+              "level": "STEP",
+              "msg": "Step 1: Asserting booking with status 'Pending Payment' is not marked confirmed"
+            },
+            {
+              "time": "17:56:22.811",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-11]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:22.811Z"
+        },
+        {
+          "testId": "TC-PAY-12",
+          "module": "payment",
+          "moduleTitle": "Payment Gateway",
+          "title": "Verify payment receipt",
+          "status": "PASSED",
+          "durationMs": 302,
+          "error": null,
+          "errorDetails": null,
+          "logs": [
+            {
+              "time": "17:56:22.811",
+              "level": "INFO",
+              "msg": "Executing [TC-PAY-12] Verify payment receipt"
+            },
+            {
+              "time": "17:56:22.811",
+              "level": "INFO",
+              "msg": "Module: Payment Gateway | Type: Compliance / Document | Severity: High"
+            },
+            {
+              "time": "17:56:23.012",
+              "level": "STEP",
+              "msg": "Step 1: Validating generated payment tax receipt"
+            },
+            {
+              "time": "17:56:23.113",
+              "level": "SUCCESS",
+              "msg": "Assertions passed successfully for [TC-PAY-12]"
+            }
+          ],
+          "timestamp": "2026-11-24T17:56:23.113Z"
+        }
+      ]
+    },
     {
       "runId": "RUN-MWHZ6O2C-191",
       "timestamp": "2026-11-15T15:14:29.226Z",
@@ -7792,6 +9398,106 @@
     }
   ],
   "payments": [
+    {
+      "id": "PAY-TRX-349428",
+      "bookingId": "BK-EV-66136",
+      "orderId": "order_A982F2EEB667EDE3",
+      "paymentId": "pay_5ZWJEJY7",
+      "amount": 45035,
+      "currency": "INR",
+      "method": "netbanking",
+      "status": "SUCCESS",
+      "customerId": "usr_guest",
+      "customerName": "Ajju",
+      "customerEmail": "ajju@gmail.com",
+      "receipt": "RCP-3376140",
+      "failureReason": null,
+      "createdAt": "2026-11-24T18:02:56.140Z",
+      "methodDetails": {
+        "provider": "State Bank of India"
+      },
+      "verifiedAt": "2026-11-24T18:03:23.744Z"
+    },
+    {
+      "id": "PAY-TRX-932884",
+      "bookingId": "BK-CB-84481",
+      "orderId": "order_1423FE921AB53CD0",
+      "paymentId": "pay_0RXR1A3V",
+      "amount": 445,
+      "currency": "INR",
+      "method": "upi",
+      "status": "SUCCESS",
+      "customerId": "usr_guest",
+      "customerName": "Customer",
+      "customerEmail": "customer@traveltest.com",
+      "receipt": "RCP-3326451",
+      "failureReason": null,
+      "createdAt": "2026-11-24T18:02:06.452Z",
+      "methodDetails": {
+        "provider": "gpay"
+      },
+      "verifiedAt": "2026-11-24T18:02:08.424Z"
+    },
+    {
+      "id": "PAY-TRX-768551",
+      "bookingId": "BK-MV-46076",
+      "orderId": "order_221162833DC5F3CC",
+      "paymentId": "pay_YKO0QSRL",
+      "amount": 5095,
+      "currency": "INR",
+      "method": "upi",
+      "status": "SUCCESS",
+      "customerId": "usr_guest",
+      "customerName": "Customer",
+      "customerEmail": "customer@traveltest.com",
+      "receipt": "RCP-3235948",
+      "failureReason": null,
+      "createdAt": "2026-11-24T18:00:35.948Z",
+      "methodDetails": {
+        "provider": "paytm"
+      },
+      "verifiedAt": "2026-11-24T18:00:41.514Z"
+    },
+    {
+      "id": "PAY-FAIL-01",
+      "bookingId": "BK-FAIL-01",
+      "orderId": "order_FAIL_123",
+      "paymentId": null,
+      "amount": 750,
+      "status": "FAILED",
+      "failureReason": "Payment declined: Card issuer bank timeout",
+      "createdAt": "2026-11-24T17:56:21.340Z"
+    },
+    {
+      "id": "PAY-TRX-AUTO-01",
+      "bookingId": "BK-TEST-PAY-01",
+      "orderId": "order_AUTO_AHUWXS",
+      "paymentId": "pay_AUTO_Q31GHA",
+      "amount": 1200,
+      "status": "SUCCESS",
+      "method": "upi",
+      "createdAt": "2026-11-24T17:56:21.026Z"
+    },
+    {
+      "id": "PAY-TRX-333686",
+      "bookingId": "BK-MV-84739",
+      "orderId": "order_D3957EC12707D1C1",
+      "paymentId": "pay_94BHYBE3",
+      "amount": 1968,
+      "currency": "INR",
+      "method": "card",
+      "status": "SUCCESS",
+      "customerId": "usr_guest",
+      "customerName": "Customer",
+      "customerEmail": "customer@traveltest.com",
+      "receipt": "RCP-5453327",
+      "failureReason": null,
+      "createdAt": "2026-11-15T17:57:33.327Z",
+      "methodDetails": {
+        "provider": "Visa Test"
+      },
+      "verifiedAt": "2026-11-15T17:57:50.778Z"
+    },
     {
       "id": "PAY-TRX-312929",
       "bookingId": "BK-MV-54224",

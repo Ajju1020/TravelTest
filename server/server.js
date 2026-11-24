@@ -1,3 +1,9 @@
+import path from "path";
+import { fileURLToPath } from "url";
+import fs from "fs";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import express from "express";
 import cors from "cors";
 import authRoutes from "./routes/auth.js";
@@ -34,6 +40,17 @@ app.get("/api/health", (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
+
+
+// Serve static client assets in production
+const clientDistPath = path.join(__dirname, "../client/dist");
+if (fs.existsSync(clientDistPath)) {
+  app.use(express.static(clientDistPath));
+  app.get("*", (req, res, next) => {
+    if (req.path.startsWith("/api/")) return next();
+    res.sendFile(path.join(clientDistPath, "index.html"));
+  });
+}
 
 app.listen(PORT, () => {
   console.log(`=======================================================`);

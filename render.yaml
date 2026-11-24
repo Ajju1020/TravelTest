@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: traveltest-platform
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: npm install --prefix server && npm install --prefix client && npm run build --prefix client
+    startCommand: node server/server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: RAZORPAY_KEY_ID
+        value: rzp_test_traveltest2026
+      - key: RAZORPAY_KEY_SECRET
+        value: traveltest_secret_key_8849

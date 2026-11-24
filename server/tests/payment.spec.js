@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import crypto from "crypto";
 
 test.describe("Module 5: Payment Gateway Automation (Razorpay Test Mode)", () => {
-  const API_BASE = "http://localhost:5000/api";
+  const API_BASE = process.env.API_BASE || (process.env.BASE_URL ? (process.env.BASE_URL.replace(/\/$/, "") + "/api") : "http://localhost:5000/api");
   const SECRET = "traveltest_secret_key_8849";
 
   function generateSig(orderId, paymentId) {
