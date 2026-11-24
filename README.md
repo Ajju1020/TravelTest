@@ -1,16 +1,17 @@
-# TravelTest – Travel & Booking Test Automation Platform
-## with Razorpay Test Mode Payment Gateway Integration
+# 🚆 TravelTest – Travel & Booking Test Automation Platform
+### 💳 Integrated with Razorpay Test Mode Payment Gateway
 
-[![Live Web App](https://img.shields.io/badge/Live_App-GitHub_Pages-22c55e?style=for-the-badge&logo=github&logoColor=white)](https://ajju1020.github.io/TravelTest/)
-[![Fullstack API](https://img.shields.io/badge/Fullstack_API-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://traveltest-platform.onrender.com)
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Ajju1020%2FTravelTest-3b82f6?style=for-the-badge&logo=github)](https://github.com/Ajju1020/TravelTest)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Application-traveltest--platform.onrender.com-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://traveltest-platform.onrender.com)
+[![GitHub Repo](https://img.shields.io/badge/📦_GitHub_Repo-Ajju1020%2FTravelTest-3b82f6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ajju1020/TravelTest)
+[![Playwright Tests](https://img.shields.io/badge/🧪_Automated_Tests-38_Passing_(100%25)-22c55e?style=for-the-badge&logo=playwright&logoColor=white)](https://traveltest-platform.onrender.com)
 
 ---
 
-### 🌐 Live Public Application Links
-- 🚀 **Interactive Web Application (GitHub Pages)**: [https://ajju1020.github.io/TravelTest/](https://ajju1020.github.io/TravelTest/)
-- ☁️ **Full-Stack Cloud Service (Render)**: [https://traveltest-platform.onrender.com](https://traveltest-platform.onrender.com)
-- 📦 **GitHub Source Repository**: [https://github.com/Ajju1020/TravelTest](https://github.com/Ajju1020/TravelTest)
+> ### 🌐 **Live Public Application Link**
+> 👉 **[https://traveltest-platform.onrender.com](https://traveltest-platform.onrender.com)**  
+> *The entire application is deployed in the cloud. Anyone can open, interact with booking workflows, process test payments, and execute automated test suites directly from their browser without any local setup.*
+
+---
 
 **TravelTest** is a modern, responsive, full-stack SaaS-style web platform built to demonstrate automated software testing, end-to-end quality assurance, and realistic online payment gateway processing across four diverse booking domains.
 
